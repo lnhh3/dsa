@@ -87,4 +87,23 @@ public class Solution {
 
         return map.isEmpty();
     }
+
+    public static int binarySearch(int[] nums, int target) {
+        int length = nums.length;
+        int middle = length / 2, left = 0, right = 0;
+
+        if (target < nums[middle]) {
+            right = middle;
+        }
+        else {
+            left = middle;
+            right = length - 1;
+        }
+
+        for (int i = left; i < right; i++) {
+            if (target == nums[i]) return i;
+        }
+
+        return -1;
+    }
 }
