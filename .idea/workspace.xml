@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5580a1-db1d-4cd9-8fce-2db58998cf5b" name="Changes" comment="feat-array_20251007" />
+    <list default="true" id="3d5580a1-db1d-4cd9-8fce-2db58998cf5b" name="Changes" comment="feat-array_20251007">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lnhh3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lnhh3&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lnhh3/dsa",
-    "accountId": "b92da561-27f4-41e5-83f3-38388c02f902"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lnhh3/dsa&quot;,
+    &quot;accountId&quot;: &quot;b92da561-27f4-41e5-83f3-38388c02f902&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -55,7 +60,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "solution-arrays",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -96,6 +101,7 @@
       <workItem from="1759741789216" duration="1004000" />
       <workItem from="1759800408606" duration="1119000" />
       <workItem from="1759801578161" duration="13523000" />
+      <workItem from="1759830044046" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="feat-array_20251007">
       <option name="closed" value="true" />
