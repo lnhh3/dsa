@@ -1,9 +1,8 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Solution {
-    public static int[] twoSum(int[] nums, int target) {
+
+    public static int[] twoSumEasy(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int length = nums.length, leftover = 0;
 
@@ -13,6 +12,20 @@ public class Solution {
                 return new int[]{map.get(leftover), i};
             }
             map.put(nums[i], i);
+        }
+
+        return new int[] {-1, -1};
+    }
+
+    public static int[] twoSumMedium(int[] numbers, int target) {
+        int l = 0, r = numbers.length - 1, total = 0;
+
+        while (l < r) {
+            total = numbers[l] + numbers[r];
+
+            if (total == target) return new int[]{l, r};
+            if (total > target) r--;
+            else l++;
         }
 
         return new int[] {-1, -1};
@@ -61,12 +74,6 @@ public class Solution {
         return total;
     }
 
-//    public static List<List<String>> groupAnagrams(String[] strs) {
-//
-//
-//        return ;
-//    }
-
     public static boolean isAnagram(String s, String t) {
         HashMap<Character, Integer> map = new HashMap<>();
 
@@ -105,5 +112,62 @@ public class Solution {
         }
 
         return -1;
+    }
+
+    public static boolean isPalindrome(String s) {
+        int l = 0, r = s.length() - 1;
+
+        for (int i = l; i < r; i++, r--) {
+            if (!isAlphaNum(s.charAt(i))) i++;
+            if (!isAlphaNum(s.charAt(r))) r--;
+            System.out.println(s.charAt(i) +  " | " + s.charAt(r));
+            if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(r))) return false;
+        }
+
+        return true;
+    }
+
+    private static boolean isAlphaNum(char c) {
+        return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9');
+    }
+
+    public static String longestCommonPrefix(String[] strs) {
+        if (strs.length == 0) return "";
+
+        String prefix = strs[0];
+
+        for (int i = 1; i < strs.length; i++)
+            while (strs[i].indexOf(prefix) != 0) {
+                prefix = prefix.substring(0, prefix.length() - 1);
+                if (prefix.isEmpty()) return "";
+            }
+
+        return prefix;
+    }
+
+    public static int lengthOfLongestSubstring(String s) {
+        int left = 0, res = 0;
+        HashMap<Character, Integer> count = new HashMap<>();
+
+        for (int right = 0; right < s.length(); right++) {
+            char c = s.charAt(right);
+            count.put(c, count.getOrDefault(c, 0) + 1);
+
+            while (count.get(c) > 1) {
+                char leftChar = s.charAt(left);
+                count.put(leftChar, count.get(leftChar) - 1);
+                left++;
+            }
+
+            res = Math.max(res, right - left + 1);
+        }
+
+        return res;
+    }
+
+    public static int removeElement(int[] nums, int val) {
+        int l = 0, r = nums.length - 1;
+
+
     }
 }
