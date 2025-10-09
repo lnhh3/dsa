@@ -165,9 +165,9 @@ public class Solution {
         return res;
     }
 
-    public static int removeElement(int[] nums, int val) {
-        int l = 0, r = nums.length - 1;
-
-
-    }
+//    public static int removeElement(int[] nums, int val) {
+//        int l = 0, r = nums.length - 1;
+//
+//
+//    }
 }
