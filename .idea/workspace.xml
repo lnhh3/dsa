@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5580a1-db1d-4cd9-8fce-2db58998cf5b" name="Changes" comment="feat-array_20251007">
-      <change afterPath="$PROJECT_DIR$/arrays/src/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/linked-lists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/src/SinglyIntegerLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-lists/src/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/linked-lists/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/linked-lists/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,7 @@
       <workItem from="1759830044046" duration="1106000" />
       <workItem from="1759887113349" duration="12316000" />
       <workItem from="1759904537376" duration="12958000" />
-      <workItem from="1759983304301" duration="10237000" />
+      <workItem from="1759983304301" duration="12998000" />
     </task>
     <task id="LOCAL-00001" summary="feat-array_20251007">
       <option name="closed" value="true" />
